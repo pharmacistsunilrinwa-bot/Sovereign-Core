@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sovereign AI Employee OS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wallpaper"></div>
+  <main class="dashboard">
+    <header class="topbar glass">
+      <div>
+        <h1>Sovereign AI Employee OS</h1>
+        <p>Autonomous engineering • multimodal intelligence • voice-first assistance</p>
+      </div>
+      <span class="status">● Live</span>
+    </header>
+
+    <section id="chat" class="chat-panel glass" aria-live="polite"></section>
+
+    <footer class="composer glass">
+      <button id="voiceBtn" class="icon-btn" title="Voice input" aria-label="Voice input">🎙</button>
+      <input id="chatInput" type="text" placeholder="Ask your AI employee anything..." />
+      <input id="filePicker" type="file" multiple accept=".pdf,.png,.jpg,.jpeg,.webp,.mp4,.mov,.doc,.docx,.txt" hidden />
+      <button id="uploadBtn" class="icon-btn" title="Upload files" aria-label="Upload files">＋</button>
+      <button id="sendBtn" class="send-btn" title="Send message" aria-label="Send">Send</button>
+    </footer>
+  </main>
+
+  <template id="msgTemplate">
+    <article class="msg">
+      <div class="msg-head">
+        <span class="role"></span>
+        <button class="speak-btn" type="button">🔊 Speak</button>
+      </div>
+      <p class="content"></p>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

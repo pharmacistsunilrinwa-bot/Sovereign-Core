@@ -1,13 +1,55 @@
 {
-    "master_id": "SAMRAT_001",
-    "master_email": "pharmacistsunilrinwa@gmail.com",
-    "project": "Sovereign_Empire",
-    "target_units": 100000,
-    "video_links": [
-        "https://video-link-1.com",
-        "https://video-link-2.com",
-        "https://video-link-3.com",
-        "https://video-link-4.com",
-        "https://video-link-5.com"
+  "assistant_name": "Sovereign Personal AI Employee",
+  "session_log": "ai_employee_session.log",
+  "workspace": "workspace",
+  "enabled_features": {
+    "research_and_analysis": true,
+    "automation_and_task_execution": true,
+    "coding_and_github_integration": true,
+    "ai_content_generation": true,
+    "business_productivity_support": true,
+    "income_generation_support": true,
+    "multimodal_file_understanding": true,
+    "voice_tts": true,
+    "voice_stt": true,
+    "realtime_voice_conversation": true,
+    "autonomous_dev_terminal": true,
+    "apk_build_support": true,
+    "self_debugging_workflows": true,
+    "github_autopilot_after_approval": true
+  },
+  "supported_upload_types": ["images", "pdfs", "videos", "documents"],
+  "provider_strategy": {
+    "gemini": "Reasoning, multimodal understanding, high-accuracy analysis",
+    "huggingface": "Open-model generation, embeddings, classification, model flexibility",
+    "github": "Codebase workflows, PR/issue automation, CI/CD integrations",
+    "google_cloud": "Speech, OCR, document AI, scalable data/compute infrastructure"
+  },
+  "dev_terminal": {
+    "languages": [
+      "Python",
+      "C",
+      "C++",
+      "Java",
+      "Kotlin",
+      "JavaScript",
+      "TypeScript",
+      "Go",
+      "Rust",
+      "PHP",
+      "Swift",
+      "Dart"
+    ],
+    "framework_ecosystems": [
+      "Android SDK / Gradle",
+      "Flutter",
+      "React Native",
+      "Node.js",
+      "FastAPI",
+      "Spring Boot",
+      "Django",
+      "Laravel",
+      ".NET"
     ]
+  }
 }
